@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/favicon.svg">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>필립스코리아 | Philips Korea</title>
+  <script defer src="./js/app.js"></script>
+  <!-- swiper js -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <ul>
+        <li class="logo">
+          <a href="index.html">
+            <img src="./img/logo.jpg" alt="필립스코리아 로고">
+          </a>
+        </li>
+        <ul class="mini-menu">
+          <li><a href="javascript:void(0)">제품정보</a></li>
+          <li><a href="javascript:void(0)">고객지원</a></li>
+          <li><a href="javascript:void(0)">전문의료</a></li>
+          <li><a href="javascript:void(0)">B2B</a></li>
+          <li class="arrow">
+            <a href="javascript:void(0)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-chevron-down" id="down">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-chevron-up" id="up">
+                <polyline points="18 15 12 9 6 15"></polyline>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <li class="hamburger">
+          <a href="javascript:void(0)">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-menu">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </header>
+    <nav id="follow-content">
+      <ul>
+        <li id="li_sound_and_vision">
+          <a href="javascript:void(0)">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-monitor">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+            <p>음향 및 영상</p>
+          </a>
+        </li>
+        <li id="li_personalcare">
+          <a href="javascript:void(0)">
+            <svg width="36" height="36" stroke-width="0.5" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 20V19C5 15.134 8.13401 12 12 12V12C15.866 12 19 15.134 19 19V20" stroke="currentColor"
+                stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z"
+                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <p>개인 용품</p>
+          </a>
+        </li>
+        <li id="li_babycare">
+          <a href="javascript:void(0)">
+            <svg width="36" height="36" stroke-width="0.5" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16 6.27975C16 6.88118 15.7625 7.45883 15.3383 7.88611C14.3619 8.87007 13.415 9.89605 12.4021 10.8443C12.17 11.0585 11.8017 11.0507 11.5795 10.8268L8.6615 7.88611C7.7795 6.99725 7.7795 5.56225 8.6615 4.67339C9.55218 3.77579 11.0032 3.77579 11.8938 4.67339L11.9999 4.78027L12.1059 4.67345C12.533 4.24286 13.1146 4 13.7221 4C14.3297 4 14.9113 4.24284 15.3383 4.67339C15.7625 5.10073 16 5.67835 16 6.27975Z"
+                stroke="currentColor" stroke-linejoin="round" />
+              <path
+                d="M18 20L21.8243 16.1757C21.9368 16.0632 22 15.9106 22 15.7515V10.5C22 9.67157 21.3284 9 20.5 9V9C19.6716 9 19 9.67157 19 10.5V15"
+                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M18 16L18.8581 15.1419C18.949 15.051 19 14.9278 19 14.7994V14.7994C19 14.6159 18.8963 14.4482 18.7322 14.3661L18.2893 14.1447C17.5194 13.7597 16.5894 13.9106 15.9807 14.5193L15.0858 15.4142C14.7107 15.7893 14.5 16.298 14.5 16.8284V20"
+                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M6 20L2.17574 16.1757C2.06321 16.0632 2 15.9106 2 15.7515V10.5C2 9.67157 2.67157 9 3.5 9V9C4.32843 9 5 9.67157 5 10.5V15"
+                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M6 16L5.14187 15.1419C5.05103 15.051 5 14.9278 5 14.7994V14.7994C5 14.6159 5.10366 14.4482 5.26776 14.3661L5.71067 14.1447C6.48064 13.7597 7.41059 13.9106 8.01931 14.5193L8.91421 15.4142C9.28929 15.7893 9.5 16.298 9.5 16.8284V20"
+                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <p>육아 용품</p>
+          </a>
+        </li>
+        <li id="li_house">
+          <a href="javascript:void(0)">
+            <svg width="36" height="36" stroke-width="0.5" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 9.5L12 4L21 9.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M19 13V19.4C19 19.7314 18.7314 20 18.4 20H5.6C5.26863 20 5 19.7314 5 19.4V13"
+                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <p>가전제품</p>
+          </a>
+        </li>
+        <li id="li_light">
+          <a href="javascript:void(0)">
+            <svg width="36" height="36" stroke-width="0.5" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M9 18H15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M10 21H14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M9.00082 15C9.00098 13 8.50098 12.5 7.50082 11.5C6.50067 10.5 6.02422 9.48689 6.00082 8C5.95284 4.95029 8.00067 3 12.0008 3C16.001 3 18.0488 4.95029 18.0008 8C17.9774 9.48689 17.5007 10.5 16.5008 11.5C15.501 12.5 15.001 13 15.0008 15"
+                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <p>조명</p>
+          </a>
+        </li>
+        <li id="li_healthcare">
+          <a href="javascript:void(0)">
+            <svg width="36" height="36" stroke-width="0.5" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M22 8.86222C22 10.4087 21.4062 11.8941 20.3458 12.9929C17.9049 15.523 15.5374 18.1613 13.0053 20.5997C12.4249 21.1505 11.5042 21.1304 10.9488 20.5547L3.65376 12.9929C1.44875 10.7072 1.44875 7.01723 3.65376 4.73157C5.88044 2.42345 9.50794 2.42345 11.7346 4.73157L11.9998 5.00642L12.2648 4.73173C13.3324 3.6245 14.7864 3 16.3053 3C17.8242 3 19.2781 3.62444 20.3458 4.73157C21.4063 5.83045 22 7.31577 22 8.86222Z"
+                stroke="currentColor" stroke-linejoin="round" />
+            </svg>
+            <p>건강</p>
+          </a>
+        </li>
+        <li id="li_car">
+          <a href="javascript:void(0)">
+            <svg width="36" height="36" stroke-width="0.5" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 10L16 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M7 14L8 14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M16 14L17 14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M3 18V11.4105C3 11.1397 3.05502 10.8716 3.16171 10.6227L5.4805 5.21216C5.79566 4.47679 6.51874 4 7.31879 4H16.6812C17.4813 4 18.2043 4.47679 18.5195 5.21216L20.8383 10.6227C20.945 10.8716 21 11.1397 21 11.4105V18M3 18V20.4C3 20.7314 3.26863 21 3.6 21H6.4C6.73137 21 7 20.7314 7 20.4V18M3 18H7M21 18V20.4C21 20.7314 20.7314 21 20.4 21H17.6C17.2686 21 17 20.7314 17 20.4V18M21 18H17M7 18H17"
+                stroke="currentColor" stroke-width="0.5" />
+            </svg>
+            <p>차량용</p>
+          </a>
+        </li>
+        <li id="li_acc">
+          <a href="javascript:void(0)">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-plus-square">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="12" y1="8" x2="12" y2="16"></line>
+              <line x1="8" y1="12" x2="16" y2="12"></line>
+            </svg>
+            <p>액세서리</p>
+          </a>
+        </li>
+        <li id="li_event">
+          <a href="javascript:void(0)">
+            <svg width="36" height="36" stroke-width="0.5" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M8.58737 8.23597L11.1849 3.00376C11.5183 2.33208 12.4817 2.33208 12.8151 3.00376L15.4126 8.23597L21.2215 9.08017C21.9668 9.18848 22.2638 10.0994 21.7243 10.6219L17.5217 14.6918L18.5135 20.4414C18.6409 21.1798 17.8614 21.7428 17.1945 21.3941L12 18.678L6.80547 21.3941C6.1386 21.7428 5.35909 21.1798 5.48645 20.4414L6.47825 14.6918L2.27575 10.6219C1.73617 10.0994 2.03322 9.18848 2.77852 9.08017L8.58737 8.23597Z"
+                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <p>이벤트</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="subContents">
+      <div class="content" id="div_sound_and_vision">
+        <ul>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">TV, 모니터, 비디오</a>
+            <ul>
+              <li><a href="javascript:void(0)">TV</a></li>
+              <li><a href="javascript:void(0)">모니터</a></li>
+              <li><a href="javascript:void(0)">프로젝터</a></li>
+              <li><a href="javascript:void(0)">미디어 플레이어</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">오디오</a>
+            <ul>
+              <li><a href="javascript:void(0)">홈 오디오</a></li>
+              <li><a href="javascript:void(0)">사운드바</a></li>
+              <li><a href="javascript:void(0)">헤드폰</a></li>
+              <li><a href="javascript:void(0)">무선 스피커</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">통신</a>
+            <ul>
+              <li><a href="javascript:void(0)">일반 전화</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">액세서리</a>
+            <ul>
+              <li><a href="javascript:void(0)">케이블 및 연결</a></li>
+              <li><a href="javascript:void(0)">전원 솔루션</a></li>
+              <li><a href="javascript:void(0)">휴대폰 액세서리</a></li>
+              <li><a href="javascript:void(0)">컴퓨터 액세서리</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="div_personalcare">
+        <ul>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">남성용</a>
+            <ul>
+              <li><a href="javascript:void(0)">전기 면도기</a></li>
+              <li><a href="javascript:void(0)">얼굴 스타일러 및 그루밍 킷</a></li>
+              <li><a href="javascript:void(0)">스킨케어</a></li>
+              <li><a href="javascript:void(0)">액세서리 및 교체품</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">여성용</a>
+            <ul>
+              <li><a href="javascript:void(0)">필립스 뷰티</a></li>
+              <li><a href="javascript:void(0)">스킨케어</a></li>
+              <li><a href="javascript:void(0)">체모 제거</a></li>
+              <li><a href="javascript:void(0)">헤어케어</a></li>
+              <li><a href="javascript:void(0)">스킨케어 액세서리</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">구강 건강 관리</a>
+            <ul>
+              <li><a href="javascript:void(0)">음파 칫솔</a></li>
+              <li><a href="javascript:void(0)">Power Flosser</a></li>
+              <li><a href="javascript:void(0)">칫솔모</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">개인건강관리</a>
+            <ul>
+              <li><a href="javascript:void(0)">가정용 의료기기</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="div_babycare">
+        <ul class="align-wide">
+          <li><a href="javascript:void(0)">신생아를 위한 Philips 아벤트 노리개 및 Soothie 애착인형</a></li>
+          <li><a href="javascript:void(0)">이유식 마스터 및 식기</a></li>
+          <li><a href="javascript:void(0)">필립스 아벤트 이야기</a></li>
+          <li><a href="javascript:void(0)">보틀워머 및 소독기</a></li>
+          <li><a href="javascript:void(0)">스타터 및 아기 선물 세트</a></li>
+          <li><a href="javascript:void(0)">유축기 및 유축 용품</a></li>
+          <li><a href="javascript:void(0)">필립스 아벤트 블로그</a></li>
+          <li><a href="javascript:void(0)">젖병 및 젖꼭지</a></li>
+          <li><a href="javascript:void(0)">유아용 처음 마시는 컵</a></li>
+        </ul>
+      </div>
+      <div class="content" id="div_house">
+        <ul>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">음료</a>
+            <ul>
+              <li><a href="javascript:void(0)">레시피</a></li>
+              <li><a href="javascript:void(0)">커피</a></li>
+              <li><a href="javascript:void(0)">전기 주전자</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">손질 및 조리</a>
+            <ul>
+              <li><a href="javascript:void(0)">조리</a></li>
+              <li><a href="javascript:void(0)">조리용 액세서리</a></li>
+              <li><a href="javascript:void(0)">음식 조리</a></li>
+              <li><a href="javascript:void(0)">뉴트리유 앱 - 당신의 에어프라이어를 위한 레시피와 팁</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">다림질</a>
+            <ul>
+              <li><a href="javascript:void(0)">다림질</a></li>
+              <li><a href="javascript:void(0)">스티머</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">물 관리</a>
+            <ul>
+              <li><a href="javascript:void(0)">음수 솔루션</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">청소</a>
+            <ul>
+              <li><a href="javascript:void(0)">진공 청소기</a></li>
+              <li><a href="javascript:void(0)">물걸레 청소기</a></li>
+              <li><a href="javascript:void(0)">진공 청소기 액세서리</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="div_light">
+        <ul>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">Philips Hue</a>
+            <ul>
+              <li><a href="javascript:void(0)">Philips Hue</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">소비자 조명</a>
+            <ul>
+              <li><a href="javascript:void(0)">소비자 조명</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="div_healthcare">
+        <ul>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">수면 솔루션</a>
+            <ul>
+              <li><a href="javascript:void(0)">수면 무호흡증</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">히어링 솔루션</a>
+            <ul>
+              <li><a href="javascript:void(0)">청력과 난청</a></li>
+              <li><a href="javascript:void(0)">보청기</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="div_car">
+        <ul>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">차량용</a>
+            <ul>
+              <li><a href="javascript:void(0)">오토바이 조명</a></li>
+              <li><a href="javascript:void(0)">할로겐</a></li>
+              <li><a href="javascript:void(0)">제논</a></li>
+              <li><a href="javascript:void(0)">새로운 LED 제품군 찾아보기</a></li>
+              <li><a href="javascript:void(0)">모든 차량용 조명 및 액세서리</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">오토바이</a>
+            <ul>
+              <li><a href="javascript:void(0)">오토바이 조명</a></li>
+              <li><a href="javascript:void(0)">할로겐</a></li>
+              <li><a href="javascript:void(0)">LED</a></li>
+              <li><a href="javascript:void(0)">모든 오토바이 조명</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">트럭</a>
+            <ul>
+              <li><a href="javascript:void(0)">헤드 라이트</a></li>
+              <li><a href="javascript:void(0)">모든 트럭 조명</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">이메일 문의</a>
+            <ul>
+              <li><a href="javascript:void(0)">자동차 지원</a></li>
+              <li><a href="javascript:void(0)">판매점 찾기</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">액세서리</a>
+            <ul>
+              <li><a href="javascript:void(0)">자동차 액세서리</a></li>
+              <li><a href="javascript:void(0)">LED 작업등</a></li>
+              <li><a href="javascript:void(0)">차량 공기품질</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="submenu-title">회사 소개</a>
+            <ul>
+              <li><a href="javascript:void(0)">필립스 차량용 조명</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="div_acc">
+        <ul>
+          <li><a href="javascript:void(0)">남성 면도 및 그루밍 액세서리</a></li>
+          <li><a href="javascript:void(0)">개인 용품 액세서리</a></li>
+          <li><a href="javascript:void(0)">엄마 및 아기 용품</a></li>
+          <li><a href="javascript:void(0)">커피 용품 액세서리 및 부품</a></li>
+          <li><a href="javascript:void(0)">칫솔 액세서리</a></li>
+          <li><a href="javascript:void(0)">생활 가전 액세서리</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="swiper main-slides">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="textBox">
+            <p class="title">더 나은 헬스케어를 위한 길<br> 필립스와 함께 하세요</p>
+            <p class="description">필립스 헬스케어의 다양한 포트폴리오를 만나보세요</p>
+            <button>자세히</button>
+          </div>
+          <img src="./img/banner/banner1.jpg" alt="slide1">
+        </div>
+        <div class="swiper-slide">
+          <div class="textBox">
+            <p class="title">양치질의 레벨 업,<br>필립스 원 전동칫솔</p>
+            <p class="description">나의 개성을 표현해주는 필립스 원으로 양치 생활을 레벨 업 해보세요.</p>
+            <button>자세히</button>
+          </div>
+          <img src="./img/banner/banner4.jpg" alt="slide2">
+        </div>
+        <div class="swiper-slide">
+          <div class="textBox">
+            <p class="title"> 세계 1위 전기면도기의 밀착혁신과<br>더 완전한 피부보호</p>
+            <p class="description">필립스 헬스케어의 제품을 만나보세요</p>
+            <button>자세히</button>
+          </div>
+          <img src="./img/banner/banner3.jpg" alt="slide3">
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+    <div class="popular">
+      <h5>Popular products</h5>
+      <ul>
+        <li>
+          <img src="./img/product/product1.jpg" alt="Shaver S9000 Prestige 습식 및 건식 전기 면도기, Series 9000">
+          <p>Shaver S9000 Prestige<br>습식 및 건식 전기 면도기, Series 9000</p>
+          <button>자세히</button>
+        </li>
+        <li>
+          <img src="./img/product/product2.jpg" alt="고속 진공 블렌더">
+          <p>고속 진공 블렌더</p>
+          <button>자세히</button>
+        </li>
+        <li>
+          <img src="./img/product/product3.jpg" alt="DiamondClean 9000 앱 지원 음파 전동 칫솔">
+          <p>DiamondClean 9000<br>앱 지원 음파 전동 칫솔</p>
+          <button>자세히</button>
+        </li>
+        <li>
+          <img src="./img/product/product4.jpg" alt="Prestige SenseIQ 및 3 액세서리 포함 헤어 드라이어">
+          <p>Prestige<br>SenseIQ 및 3 액세서리 포함 헤어 드라이어</p>
+          <button>자세히</button>
+        </li>
+        <li>
+          <img src="./img/product/product5.jpg" alt="Philips Avent PPSU 내추럴 PPSU 젖병">
+          <p>Philips Avent PPSU<br>내추럴 PPSU 젖병</p>
+          <button>자세히</button>
+        </li>
+        <li>
+          <img src="./img/product/product6.jpg" alt="Epilator Series 8000 습식 및 건식 모근 제모기">
+          <p>Epilator Series 8000<br>습식 및 건식 모근 제모기</p>
+          <button>자세히</button>
+        </li>
+      </ul>
+    </div>
+    <div class="mini-banner">
+      <div class="mini mini-one">
+        <div class="mini-bg"></div>
+        <div class="mini-text">
+          <p>한 세기 이상 지속해 온 혁신과 기업가 정신</p>
+          <p>최초에 가장 가까운 필립스 혁신 스토리</p>
+        </div>
+        <button>자세히</button>
+      </div>
+      <div class="mini mini-two">
+        <div class="mini-bg"></div>
+        <div class="mini-text">
+          <p>필립스의 앱 기반 모바일 초음파</p>
+          <p>실시간 양방향 화상통신이 가능한 루미파이를 만나보세요</p>
+        </div>
+        <button>자세히</button>
+      </div>
+    </div>
+    <div class="search">
+      <div class="search-title">
+        <h5>제품 사용 설명서 / FAQ / 소프트웨어 업데이트 찾기</h5>
+        <p>제품번호로 검색하세요</p>
+      </div>
+      <div class="search-input">
+        <input type="text" placeholder="검색어를 입력하세요">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </div>
+      <div class="search-btn">
+        <button>고객센터 바로가기</button>
+        <button>헬스케어 제품 구매 및 서비스지원</button>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-top">
+        <div class="sns">
+          <img src="./img/facebook.png" alt="페이스북">
+          <img src="./img/twitter.png" alt="트위터">
+          <img src="./img/youtube.png" alt="유튜브">
+        </div>
+        <ul class="lang">
+          <li>
+            <a href="javascript:void(0)">Select country / language 한국 - 한국어</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </li>
+          <li>
+            <a href="javascript:void(0)">필립스 사업부 선택</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"
+              id="footer-select-down">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <svg width="62" height="80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <defs>
+            <path id="a" d="M0 0h61.75v79.53H0z" />
+          </defs>
+          <g fill="none" fill-rule="evenodd">
+            <mask id="b" fill="#fff">
+              <use xlink:href="#a" />
+            </mask>
+            <path
+              d="M53.81 62.3c-2.16.26-5.45.69-6.25.91-.8.22-1.6.74-1.94 1.96-.23.8-.65 4.14-.9 6.33a27.04 27.04 0 0 0 9.1-9.2ZM30.9 75.38c4.7 0 9.1-1.22 12.94-3.37a89.57 89.57 0 0 0-.97-6.84 2.63 2.63 0 0 0-1.94-1.96c-1.21-.34-8.21-1.15-8.21-1.15v-.49s7-.81 8.21-1.15c.8-.22 1.6-.74 1.94-1.96.33-1.16 1.07-7.65 1.15-8.34-4.8.9-8.1 3.13-12.22 5.26-4.38 2.27-8.66 3.9-14.22 3.9-4.91 0-9.28-1.62-12.45-3.6a26.82 26.82 0 0 0 25.77 19.7ZM4.56 17.08h2.87v-2.26h1.02c2.67 0 4.36-1.4 4.36-3.82 0-2.66-1.8-3.62-4.75-3.62-1.14 0-2.52.08-3.5.2v9.5Zm9.39 0h2.86v-3.73h2.99v3.73h2.87v-9.5H19.8v3.78h-2.99V7.58h-2.86v9.5Zm10.84 0h2.87v-9.5h-2.87v9.5Zm4.99 0h5.18l.43-1.9h-2.75v-7.6h-2.86v9.5Zm6.64 0h2.86v-9.5h-2.86v9.5Zm5.02 0h2.87v-2.26h1.02c2.67 0 4.36-1.4 4.36-3.82 0-2.66-1.8-3.62-4.75-3.62-1.14 0-2.51.08-3.5.2v9.5Zm-10.55 4.2c-2.27 0-4.47.28-6.57.82.11.95.43 3.6.59 4.14.19.68.63.97 1.07 1.09.67.19 4.44.62 4.44.62v.27s-3.77.45-4.44.64c-.44.12-.88.4-1.07 1.08-.15.53-.45 2.95-.57 4 2.23.3 4.62.58 4.62.58V35s-7 .81-8.2 1.15c-.81.22-1.6.74-1.95 1.96-.32 1.12-1.02 7.26-1.12 8.18 4.93-.9 9.14-3.5 12.3-5.04 4.5-2.2 8.63-4 14.25-4 4.89 0 9.2 1.59 12.36 3.56a26.82 26.82 0 0 0-25.7-19.53Zm24.15-6.82c0 .6-.44.91-1.5.91a8.5 8.5 0 0 1-3.26-.75l.32 2.18a9.4 9.4 0 0 0 2.98.48c2.4 0 4.36-.8 4.36-3.18 0-3.18-4.51-2.58-4.51-4.1 0-.5.5-.75 1.33-.75.9 0 1.89.2 2.55.48l-.23-2.07a11.1 11.1 0 0 0-2.63-.28c-2.32 0-3.9.93-3.9 2.87 0 3.33 4.49 2.66 4.49 4.2ZM44.47 50.04c.06.55.82 7.25 1.15 8.42a2.63 2.63 0 0 0 1.94 1.96c.86.24 4.65.72 6.76.98a27.07 27.07 0 0 0 3.14-9.82 25.4 25.4 0 0 0-9.13-1.83c-1.4 0-2.68.1-3.86.29ZM14.1 33.37c.8-.23 1.6-.74 1.94-1.96.22-.79.63-3.98.9-6.17a27.05 27.05 0 0 0-8.93 9.02 80.3 80.3 0 0 0 6.1-.9ZM4.33 44.94a25.46 25.46 0 0 0 9.08 1.77c1.32 0 2.57-.12 3.76-.32-.1-.97-.8-7.15-1.12-8.27a2.63 2.63 0 0 0-1.94-1.96c-.84-.24-4.49-.7-6.62-.96a27.08 27.08 0 0 0-3.16 9.74Zm19.05-15a1.46 1.46 0 0 0-1.07-1.08c-.53-.15-3-.46-4-.59.18 1.41.37 2.68.5 3.14a2.63 2.63 0 0 0 1.94 1.96c.46.13 1.76.32 3.2.52a52.97 52.97 0 0 0-.57-3.95Zm0-3.7c.15-.53.46-3.02.58-4.05-2.15.59-4.2 1.43-6.1 2.5.1.91.25 2.09.4 3.21.98-.11 3.5-.42 4.05-.57.44-.12.88-.41 1.07-1.09ZM4.32 51.68c3.39 2.18 8.1 3.26 12.05 3.26 5.98 0 9.58-1.8 13.52-3.79 5.43-2.73 9.93-5.62 16.99-5.58a23.4 23.4 0 0 1 10.77 2.61c0-1.14-.08-2.26-.22-3.36-3.38-2.16-8.08-3.27-12.01-3.27-5.98 0-9.57 1.84-13.52 3.83-5.07 2.54-9.92 5.6-16.96 5.6-4.29 0-10.82-2.66-10.82-2.65 0 1.12.07 2.27.2 3.35ZM61.75 1.71v46.6c0 17.2-13.85 31.22-30.87 31.22C13.56 79.53 0 65.51 0 48.3V1.71C4.02 1.21 16.91 0 30.88 0 44.53 0 57.6 1.13 61.75 1.71ZM38.18 67.12c-.15-.52-.5-3.49-.5-3.49h-.2s-.34 2.97-.5 3.5c-.14.52-.48.74-.83.84-.52.14-3.46.5-3.46.5v.2s2.94.36 3.46.5c.35.1.7.32.84.85.15.52.49 3.5.49 3.5h.2s.35-2.98.5-3.5c.15-.53.49-.75.84-.85.52-.14 3.45-.5 3.45-.5v-.2s-2.93-.36-3.45-.5c-.35-.1-.7-.32-.84-.85ZM47 11.04c0-1.2-.67-1.87-2.09-1.87l-.47.01v3.93h.47c1.5 0 2.09-.84 2.09-2.07ZM8.04 13.11h-.47V9.18h.47c1.41 0 2.08.67 2.08 1.86 0 1.23-.59 2.07-2.08 2.07Z"
+              fill="#FEFEFE" mask="url(#b)" />
+          </g>
+        </svg>
+        <p>
+          필립스코리아 대표이사 : 김동희 주소 : 서울시 중구 소월로2길 30(남대문로 5가) 사업자등록번호 : 106-81-02284<br>
+          통신판매업 신고 : 제 2016-서울중구-1138 [사업자정보확인] 의료기기판매업 신고 : 제 2998호<br>
+          필립스 고객센터 소비자 가전 : 080-600-6600 수면 및 호흡기기 : 080-500-0004 영상 진단 및 분석 의료기기 : 080-372-7777
+        </p>
+        <p>
+          채용 정보 | 이메일 문의 | Philips | 개인정보 처리방침 | 법적고지 | 필립스 쿠키 정책<br>
+          © Koninklijke Philips N.V., 2004 - 2022. 판권 소유.
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const swiper = new Swiper( '.swiper', {
+    autoplay: {
+      delay: 4000      
+    },
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  } );
+  </script>
+</body>
+
+</html>
