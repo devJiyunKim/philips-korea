@@ -1,16 +1,13 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>필립스코리아 | Philips Korea</title>
+  <title>필립스 뷰티 | 필립스코리아</title>
   <link rel="shortcut icon" href="./img/favicon.svg">
   <link rel="stylesheet" href="./css/style.css">
   <script defer src="./js/app.js"></script>
-  <!-- swiper js -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 <body>
   <div id="wrapper">
@@ -395,7 +392,7 @@
           </a>
           <div class="subContents">
             <div class="content" id="div_acc">
-              <ul class="align-wide">
+              <ul>
                 <li><a href="javascript:void(0)">남성 면도 및 그루밍 액세서리</a></li>
                 <li><a href="javascript:void(0)">개인 용품 액세서리</a></li>
                 <li><a href="javascript:void(0)">엄마 및 아기 용품</a></li>
@@ -419,121 +416,26 @@
         </li>
       </ul>
     </nav>
-    <!-- 메인 슬라이드 -->
-    <div class="swiper main-slides">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">
-          <div class="textBox">
-            <p class="title">더 나은 헬스케어를 위한 길<br> 필립스와 함께 하세요</p>
-            <p class="description">필립스 헬스케어의 다양한 포트폴리오를 만나보세요</p>
-            <button>자세히</button>
-          </div>
-          <img src="./img/banner/banner1.jpg" alt="slide1">
-        </div>
-        <div class="swiper-slide">
-          <div class="textBox">
-            <p class="title">양치질의 레벨 업,<br>필립스 원 전동칫솔</p>
-            <p class="description">나의 개성을 표현해주는 필립스 원으로 양치 생활을 레벨 업 해보세요.</p>
-            <button>자세히</button>
-          </div>
-          <img src="./img/banner/banner4.jpg" alt="slide2">
-        </div>
-        <div class="swiper-slide">
-          <div class="textBox">
-            <p class="title"> 세계 1위 전기면도기의 밀착혁신과<br>더 완전한 피부보호</p>
-            <p class="description">필립스 헬스케어의 제품을 만나보세요</p>
-            <button>자세히</button>
-          </div>
-          <img src="./img/banner/banner3.jpg" alt="slide3">
-        </div>
+    <!-- 서브메뉴 -->
+    <div class="banner banner-personal-care">
+      <div class="textBox">
+        <p class="title">필립스 뷰티<br>매일 더 아름다워지는 변화를 느껴보세요</p>
       </div>
-      <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
-    
-      <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-    
-      <!-- If we need scrollbar -->
-      <div class="swiper-scrollbar"></div>
     </div>
-    <!-- 인기 제품 -->
-    <div class="popular">
-      <h5>Popular products</h5>
+    <!-- 상세메뉴 -->
+    <div class="submenu">
       <ul>
-        <li>
-          <img src="./img/product/product1.jpg" alt="Shaver S9000 Prestige 습식 및 건식 전기 면도기, Series 9000">
-          <p>Shaver S9000 Prestige<br>습식 및 건식 전기 면도기, Series 9000</p>
-          <button>자세히</button>
-        </li>
-        <li>
-          <img src="./img/product/product2.jpg" alt="고속 진공 블렌더">
-          <p>고속 진공 블렌더</p>
-          <button>자세히</button>
-        </li>
-        <li>
-          <img src="./img/product/product3.jpg" alt="DiamondClean 9000 앱 지원 음파 전동 칫솔">
-          <p>DiamondClean 9000<br>앱 지원 음파 전동 칫솔</p>
-          <button>자세히</button>
-        </li>
-        <li>
-          <img src="./img/product/product4.jpg" alt="Prestige SenseIQ 및 3 액세서리 포함 헤어 드라이어">
-          <p>Prestige<br>SenseIQ 및 3 액세서리 포함 헤어 드라이어</p>
-          <button>자세히</button>
-        </li>
-        <li>
-          <img src="./img/product/product5.jpg" alt="Philips Avent PPSU 내추럴 PPSU 젖병">
-          <p>Philips Avent PPSU<br>내추럴 PPSU 젖병</p>
-          <button>자세히</button>
-        </li>
-        <li>
-          <img src="./img/product/product6.jpg" alt="Epilator Series 8000 습식 및 건식 모근 제모기">
-          <p>Epilator Series 8000<br>습식 및 건식 모근 제모기</p>
-          <button>자세히</button>
-        </li>
+        <li class="checked">스킨케어</li>
+        <li>제모</li>
+        <li>헤어케어</li>
       </ul>
     </div>
-    <!-- 미니 배너 -->
-    <div class="mini-banner">
-      <div class="mini mini-one">
-        <div class="mini-bg"></div>
-        <div class="mini-text">
-          <p>한 세기 이상 지속해 온 혁신과 기업가 정신</p>
-          <p>최초에 가장 가까운 필립스 혁신 스토리</p>
-        </div>
-        <button>자세히</button>
-      </div>
-      <div class="mini mini-two">
-        <div class="mini-bg"></div>
-        <div class="mini-text">
-          <p>필립스의 앱 기반 모바일 초음파</p>
-          <p>실시간 양방향 화상통신이 가능한 루미파이를 만나보세요</p>
-        </div>
-        <button>자세히</button>
-      </div>
-    </div>
-    <!-- 찾기 배너 -->
-    <div class="search">
-      <div class="search-title">
-        <h5>제품 사용 설명서 / FAQ / 소프트웨어 업데이트 찾기</h5>
-        <p>제품번호로 검색하세요</p>
-      </div>
-      <div class="search-input">
-        <input type="text" placeholder="검색어를 입력하세요">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-          class="feather feather-search">
-          <circle cx="11" cy="11" r="8"></circle>
-          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-        </svg>
-      </div>
-      <div class="search-btn">
-        <button>고객센터 바로가기</button>
-        <button>헬스케어 제품 구매 및 서비스지원</button>
-      </div>
-    </div>
+    <!-- 내용 -->
+    <section>
+      <img src="https://img.icons8.com/sf-ultralight/100/000000/high-priority.png"/>
+      <h5>페이지 준비 중입니다</h5>
+      <span>이용에 불편을 드려 죄송합니다.</span>
+    </section>
     <!-- 푸터 -->
     <footer>
       <div class="footer-top">
@@ -586,19 +488,5 @@
       </div>
     </footer>
   </div>
-
-  <!-- Swiper.js -->
-  <script>
-    const swiper = new Swiper( '.swiper', {
-    autoplay: {
-      delay: 4000      
-    },
-    loop: true,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  } );
-  </script>
 </body>
 </html>

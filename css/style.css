@@ -525,7 +525,6 @@ input {
 
 #wrapper header ul .mini-menu li a:hover {
   font-weight: 600;
-  color: #367CFF;
 }
 
 #wrapper header ul .mini-menu li:last-child {
@@ -578,31 +577,25 @@ input {
   margin-top: 16px;
 }
 
-#wrapper nav#follow-content ul li:hover {
-  border-bottom: 4px solid #367CFF;
-}
-
-#wrapper nav#follow-content ul li:hover a p {
-  font-weight: 600;
-}
-
-#wrapper .subContents {
+#wrapper nav#follow-content ul li .subContents {
   width: 100%;
-  height: auto;
   position: absolute;
+  top: 260px;
+  left: 0;
   z-index: 10;
   background-color: #fff;
   border-top: 1px solid #eee;
+  display: block;
 }
 
-#wrapper .subContents .content {
+#wrapper nav#follow-content ul li .subContents .content {
   width: 100%;
-  height: auto;
+  height: 300px;
   display: none;
-  padding: 50px 10%;
+  padding: 36px 10%;
 }
 
-#wrapper .subContents .content ul {
+#wrapper nav#follow-content ul li .subContents .content ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -610,52 +603,75 @@ input {
       flex-wrap: nowrap;
 }
 
-#wrapper .subContents .content ul li {
+#wrapper nav#follow-content ul li .subContents .content ul li {
   width: 260px;
   height: auto;
   word-break: keep-all;
 }
 
-#wrapper .subContents .content ul li .submenu-title {
+#wrapper nav#follow-content ul li .subContents .content ul li .submenu-title {
   font-weight: 700;
 }
 
-#wrapper .subContents .content ul li ul {
+#wrapper nav#follow-content ul li .subContents .content ul li ul {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 24px;
+  padding: 24px 0;
 }
 
-#wrapper .subContents .content ul li ul li {
+#wrapper nav#follow-content ul li .subContents .content ul li ul li {
   width: 100%;
   padding: 4px 0;
 }
 
-#wrapper .subContents .content ul li ul li a {
+#wrapper nav#follow-content ul li .subContents .content ul li ul li a {
   text-align: left;
   line-height: 22px;
 }
 
-#wrapper .subContents .content ul li ul li a:hover {
-  font-weight: 700;
+#wrapper nav#follow-content ul li .subContents .content ul li ul li a:hover {
+  font-weight: 600;
 }
 
-#wrapper .subContents .content ul.align-wide {
+#wrapper nav#follow-content ul li .subContents .content ul li ul li:hover {
+  font-weight: 600;
+}
+
+#wrapper nav#follow-content ul li .subContents .content ul li:hover {
+  border: none;
+}
+
+#wrapper nav#follow-content ul li .subContents .content ul.align-wide {
   width: 100%;
   height: auto;
   overflow-y: auto;
   display: block;
 }
 
-#wrapper .subContents .content ul.align-wide li {
+#wrapper nav#follow-content ul li .subContents .content ul.align-wide li {
   width: 20%;
   height: auto;
   float: left;
-  margin: 24px 0;
+  margin: 10px 0;
   word-break: keep-all;
-  line-height: 26px;
+}
+
+#wrapper nav#follow-content ul li .subContents .content ul.align-wide li:hover {
+  font-weight: 600;
+}
+
+#wrapper nav#follow-content ul li:hover {
+  border-bottom: 4px solid #367CFF;
+}
+
+#wrapper nav#follow-content ul li:hover .content {
+  display: block;
+}
+
+#wrapper nav#follow-content ul li:hover a p {
+  font-weight: 600;
 }
 
 #wrapper .main-slides {
@@ -1068,4 +1084,121 @@ input {
   color: #fff;
   margin: 10px 0;
 }
-/*# sourceMappingURL=main.css.map */
+
+#wrapper .banner {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#wrapper .banner.banner-tv {
+  background-image: url("../img/banner/sub_banner_tv.jpg");
+}
+
+#wrapper .banner.banner-personal-care {
+  background-image: url("../img/banner/sub_banner_personal.jpg");
+  background-position: center 10%;
+}
+
+#wrapper .banner.banner-babycare {
+  background-image: url("../img/banner/sub_banner_baby.jpg");
+  background-position: center 50%;
+}
+
+#wrapper .banner.banner-house {
+  background-image: url("../img/banner/sub_banner_house.jpg");
+  background-position: center 50%;
+}
+
+#wrapper .banner.banner-light {
+  background-image: url("../img/banner/sub_banner_light.jpg");
+  background-position: center 50%;
+}
+
+#wrapper .banner.banner-healthcare {
+  background-image: url("../img/banner/sub_banner_hearing.jpg");
+  background-position: center 0;
+}
+
+#wrapper .banner.banner-car {
+  background-image: url("../img/banner/sub_banner_car.jpg");
+  background-position: center 0;
+}
+
+#wrapper .banner.banner-acc {
+  background-image: url("../img/banner/sub_banner_acc.webp");
+}
+
+#wrapper .banner.banner-event {
+  background-image: url("../img/banner/sub_banner_event.jpg");
+}
+
+#wrapper .banner .textBox {
+  padding: 100px 10%;
+}
+
+#wrapper .banner .textBox p {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 54px;
+}
+
+#wrapper .banner .textBox p.description {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#wrapper .banner img {
+  width: 100%;
+  height: auto;
+}
+
+#wrapper .submenu {
+  width: 100%;
+  height: 40px;
+  background-color: #367CFF;
+}
+
+#wrapper .submenu ul {
+  padding: 0 10%;
+}
+
+#wrapper .submenu ul li {
+  width: 20%;
+  float: left;
+  text-align: center;
+  color: #fff;
+  padding: 12px 0;
+  cursor: pointer;
+}
+
+#wrapper .submenu ul li:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+#wrapper .submenu ul li.checked {
+  background-color: #fff;
+  color: #333;
+}
+
+#wrapper section {
+  width: 100%;
+  padding: 200px 0;
+  text-align: center;
+}
+
+#wrapper section h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+#wrapper section span {
+  font-size: 16px;
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */
