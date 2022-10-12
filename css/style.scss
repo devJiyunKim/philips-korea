@@ -560,7 +560,7 @@ body{
         margin-right: 0;
 
         .mini-bg {
-          background-image: url(/./img/banner/minibanner2.jpg);
+          background-image: url('../img/banner/minibanner2.jpg');
         }
 
         &:hover {
@@ -572,7 +572,7 @@ body{
 
       &.mini-one {
         .mini-bg {
-          background-image: url(/./img/banner/minibanner1.jpg);
+          background-image: url('../img/banner/minibanner1.jpg');
         }
 
         &:hover {
