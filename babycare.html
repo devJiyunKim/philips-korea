@@ -41,12 +41,18 @@
         </ul>
         <li class="hamburger">
           <a href="javascript:void(0)">
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
               stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
-              class="feather feather-menu">
+              class="feather feather-menu" id="hamburger">
               <line x1="3" y1="12" x2="21" y2="12"></line>
               <line x1="3" y1="6" x2="21" y2="6"></line>
               <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-x" id="closeBtn">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
             </svg>
           </a>
         </li>
@@ -393,12 +399,12 @@
           <div class="subContents">
             <div class="content" id="div_acc">
               <ul>
-                <li><a href="javascript:void(0)">남성 면도 및 그루밍 액세서리</a></li>
-                <li><a href="javascript:void(0)">개인 용품 액세서리</a></li>
-                <li><a href="javascript:void(0)">엄마 및 아기 용품</a></li>
-                <li><a href="javascript:void(0)">커피 용품 액세서리 및 부품</a></li>
-                <li><a href="javascript:void(0)">칫솔 액세서리</a></li>
-                <li><a href="javascript:void(0)">생활 가전 액세서리</a></li>
+                <li><a href="acc.html">남성 면도 및 그루밍 액세서리</a></li>
+                <li><a href="acc.html">개인 용품 액세서리</a></li>
+                <li><a href="acc.html">엄마 및 아기 용품</a></li>
+                <li><a href="acc.html">커피 용품 액세서리 및 부품</a></li>
+                <li><a href="acc.html">칫솔 액세서리</a></li>
+                <li><a href="acc.html">생활 가전 액세서리</a></li>
               </ul>
             </div>
           </div>
@@ -416,14 +422,403 @@
         </li>
       </ul>
     </nav>
+    <!----------------------------->
+    <!-- 모바일 헤더 & 네비게이션 -->
+    <div class="header-wrap-tablet" id="header-wrap-tablet">
+      <!-- 모바일 헤더 -->
+      <div class="header-tablet">
+        <ul>
+          <li class="logo">
+            <a href="index.html">
+              <img src="./img/logo.jpg" alt="필립스코리아 로고">
+            </a>
+          </li>
+          <li class="mini-menu">
+            <ul>
+              <li><a href="javascript:void(0)">제품정보</a></li>
+              <li><a href="javascript:void(0)">고객지원</a></li>
+              <li><a href="javascript:void(0)">전문의료</a></li>
+              <li><a href="javascript:void(0)">B2B</a></li>
+            </ul>
+          </li>
+          <li class="hamburger">
+            <a href="javascript:void(0)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-menu" id="hamburger-tablet">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-x" id="closeBtn-tablet">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>      
+      <!-- 모바일 네비게이션 -->
+      <div id="nav-follow-content">
+        <ul class="content-ul">
+          <li id="li_sound_and_vision" onclick="Open_tablet_menu(this, 'li_personalcare', 'li_babycare', 'li_house', 'li_light', 'li_healthcare', 'li_car', 'li_acc', 'li_event', 'subContents_sound_and_vision')">
+            <a href="javascript:void(0)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-monitor">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+              <p>음향 및 영상</p>
+            </a>
+            <div class="subContents" id="subContents_sound_and_vision">
+              <ul class="subContent-ul">
+                <li>
+                  <a href="tv.html" class="submenu-title">TV, 모니터, 비디오</a>
+                  <ul>
+                    <li><a href="tv.html">TV</a></li>
+                    <li><a href="tv.html">모니터</a></li>
+                    <li><a href="tv.html">프로젝터</a></li>
+                    <li><a href="tv.html">미디어 플레이어</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="tv.html" class="submenu-title">오디오</a>
+                  <ul>
+                    <li><a href="tv.html">홈 오디오</a></li>
+                    <li><a href="tv.html">사운드바</a></li>
+                    <li><a href="tv.html">헤드폰</a></li>
+                    <li><a href="tv.html">무선 스피커</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="tv.html" class="submenu-title">통신</a>
+                  <ul>
+                    <li><a href="tv.html">일반 전화</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="tv.html" class="submenu-title">액세서리</a>
+                  <ul>
+                    <li><a href="tv.html">케이블 및 연결</a></li>
+                    <li><a href="tv.html">전원 솔루션</a></li>
+                    <li><a href="tv.html">휴대폰 액세서리</a></li>
+                    <li><a href="tv.html">컴퓨터 액세서리</a></li>
+                  </ul>
+                </li>
+              </ul> 
+            </div>
+          </li>
+          <li id="li_personalcare" onclick="Open_tablet_menu(this, 'li_sound_and_vision', 'li_babycare', 'li_house', 'li_light', 'li_healthcare', 'li_car', 'li_acc', 'li_event', 'subContents_personalcare')">
+            <a href="javascript:void(0)">
+              <svg width="42" height="42" stroke-width="0.5" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 20V19C5 15.134 8.13401 12 12 12V12C15.866 12 19 15.134 19 19V20" stroke="currentColor"
+                  stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z"
+                  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <p>개인 용품</p>
+            </a>
+            <div class="subContents" id="subContents_personalcare">
+              <ul class="subContent-ul">
+                <li>
+                  <a href="personal-care.html" class="submenu-title">남성용</a>
+                  <ul>
+                    <li><a href="personal-care.html">전기 면도기</a></li>
+                    <li><a href="personal-care.html">얼굴 스타일러 및 그루밍 킷</a></li>
+                    <li><a href="personal-care.html">스킨케어</a></li>
+                    <li><a href="personal-care.html">액세서리 및 교체품</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="personal-care.html" class="submenu-title">여성용</a>
+                  <ul>
+                    <li><a href="personal-care.html">필립스 뷰티</a></li>
+                    <li><a href="personal-care.html">스킨케어</a></li>
+                    <li><a href="personal-care.html">체모 제거</a></li>
+                    <li><a href="personal-care.html">헤어케어</a></li>
+                    <li><a href="personal-care.html">스킨케어 액세서리</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="personal-care.html" class="submenu-title">구강 건강 관리</a>
+                  <ul>
+                    <li><a href="personal-care.html">음파 칫솔</a></li>
+                    <li><a href="personal-care.html">Power Flosser</a></li>
+                    <li><a href="personal-care.html">칫솔모</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="personal-care.html" class="submenu-title">개인건강관리</a>
+                  <ul>
+                    <li><a href="personal-care.html">가정용 의료기기</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li id="li_babycare" onclick="Open_tablet_menu(this, 'li_sound_and_vision', 'li_personalcare', 'li_house', 'li_light', 'li_healthcare', 'li_car', 'li_acc', 'li_event','subContents_babycare')">
+            <a href="javascript:void(0)">
+              <svg width="42" height="42" stroke-width="0.5" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16 6.27975C16 6.88118 15.7625 7.45883 15.3383 7.88611C14.3619 8.87007 13.415 9.89605 12.4021 10.8443C12.17 11.0585 11.8017 11.0507 11.5795 10.8268L8.6615 7.88611C7.7795 6.99725 7.7795 5.56225 8.6615 4.67339C9.55218 3.77579 11.0032 3.77579 11.8938 4.67339L11.9999 4.78027L12.1059 4.67345C12.533 4.24286 13.1146 4 13.7221 4C14.3297 4 14.9113 4.24284 15.3383 4.67339C15.7625 5.10073 16 5.67835 16 6.27975Z"
+                  stroke="currentColor" stroke-linejoin="round" />
+                <path
+                  d="M18 20L21.8243 16.1757C21.9368 16.0632 22 15.9106 22 15.7515V10.5C22 9.67157 21.3284 9 20.5 9V9C19.6716 9 19 9.67157 19 10.5V15"
+                  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M18 16L18.8581 15.1419C18.949 15.051 19 14.9278 19 14.7994V14.7994C19 14.6159 18.8963 14.4482 18.7322 14.3661L18.2893 14.1447C17.5194 13.7597 16.5894 13.9106 15.9807 14.5193L15.0858 15.4142C14.7107 15.7893 14.5 16.298 14.5 16.8284V20"
+                  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M6 20L2.17574 16.1757C2.06321 16.0632 2 15.9106 2 15.7515V10.5C2 9.67157 2.67157 9 3.5 9V9C4.32843 9 5 9.67157 5 10.5V15"
+                  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M6 16L5.14187 15.1419C5.05103 15.051 5 14.9278 5 14.7994V14.7994C5 14.6159 5.10366 14.4482 5.26776 14.3661L5.71067 14.1447C6.48064 13.7597 7.41059 13.9106 8.01931 14.5193L8.91421 15.4142C9.28929 15.7893 9.5 16.298 9.5 16.8284V20"
+                  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <p>육아 용품</p>
+            </a>
+            <div class="subContents" id="subContents_babycare">
+              <ul class="align-wide">
+                <li><a href="babycare.html">신생아를 위한 Philips 아벤트 노리개 및 Soothie 애착인형</a></li>
+                <li><a href="babycare.html">이유식 마스터 및 식기</a></li>
+                <li><a href="babycare.html">필립스 아벤트 이야기</a></li>
+                <li><a href="babycare.html">보틀워머 및 소독기</a></li>
+                <li><a href="babycare.html">스타터 및 아기 선물 세트</a></li>
+                <li><a href="babycare.html">유축기 및 유축 용품</a></li>
+                <li><a href="babycare.html">필립스 아벤트 블로그</a></li>
+                <li><a href="babycare.html">젖병 및 젖꼭지</a></li>
+                <li><a href="babycare.html">유아용 처음 마시는 컵</a></li>
+              </ul>
+            </div>
+          </li>
+          <li id="'li_house'" onclick="Open_tablet_menu(this, 'li_sound_and_vision', 'li_personalcare', 'li_babycare', 'li_light', 'li_healthcare', 'li_car', 'li_acc', 'li_event', 'subContents_house')">
+            <a href="javascript:void(0)">
+              <svg width="42" height="42" stroke-width="0.5" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 9.5L12 4L21 9.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M19 13V19.4C19 19.7314 18.7314 20 18.4 20H5.6C5.26863 20 5 19.7314 5 19.4V13"
+                  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <p>가전제품</p>
+            </a>
+            <div class="subContents" id="subContents_house">
+              <ul class="subContent-ul">
+                <li>
+                  <a href="house.html" class="submenu-title">음료</a>
+                  <ul>
+                    <li><a href="house.html">레시피</a></li>
+                    <li><a href="house.html">커피</a></li>
+                    <li><a href="house.html">전기 주전자</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="house.html" class="submenu-title">손질 및 조리</a>
+                  <ul>
+                    <li><a href="house.html">조리</a></li>
+                    <li><a href="house.html">조리용 액세서리</a></li>
+                    <li><a href="house.html">음식 조리</a></li>
+                    <li><a href="house.html">뉴트리유 앱 - 당신의 에어프라이어를 위한 레시피와 팁</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="house.html" class="submenu-title">다림질</a>
+                  <ul>
+                    <li><a href="house.html">다림질</a></li>
+                    <li><a href="house.html">스티머</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="house.html" class="submenu-title">물 관리</a>
+                  <ul>
+                    <li><a href="house.html">음수 솔루션</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="house.html" class="submenu-title">청소</a>
+                  <ul>
+                    <li><a href="house.html">진공 청소기</a></li>
+                    <li><a href="house.html">물걸레 청소기</a></li>
+                    <li><a href="house.html">진공 청소기 액세서리</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li id="li_light" onclick="Open_tablet_menu(this, 'li_sound_and_vision', 'li_personalcare', 'li_babycare', 'li_house', 'li_healthcare', 'li_car', 'li_acc', 'li_event', 'subContents_light')">
+            <a href="javascript:void(0)">
+              <svg width="42" height="42" stroke-width="0.5" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 18H15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M10 21H14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M9.00082 15C9.00098 13 8.50098 12.5 7.50082 11.5C6.50067 10.5 6.02422 9.48689 6.00082 8C5.95284 4.95029 8.00067 3 12.0008 3C16.001 3 18.0488 4.95029 18.0008 8C17.9774 9.48689 17.5007 10.5 16.5008 11.5C15.501 12.5 15.001 13 15.0008 15"
+                  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <p>조명</p>
+            </a>
+            <div class="subContents" id="subContents_light">
+              <ul class="subContent-ul">
+                <li>
+                  <a href="light.html" class="submenu-title">Philips Hue</a>
+                  <ul>
+                    <li><a href="light.html">Philips Hue</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="light.html" class="submenu-title">소비자 조명</a>
+                  <ul>
+                    <li><a href="light.html">소비자 조명</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li id="li_healthcare" onclick="Open_tablet_menu(this, 'li_sound_and_vision', 'li_personalcare', 'li_babycare', 'li_house', 'li_light', 'li_car', 'li_acc', 'li_event', 'subContents_healthcare')">
+            <a href="javascript:void(0)">
+              <svg width="42" height="42" stroke-width="0.5" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M22 8.86222C22 10.4087 21.4062 11.8941 20.3458 12.9929C17.9049 15.523 15.5374 18.1613 13.0053 20.5997C12.4249 21.1505 11.5042 21.1304 10.9488 20.5547L3.65376 12.9929C1.44875 10.7072 1.44875 7.01723 3.65376 4.73157C5.88044 2.42345 9.50794 2.42345 11.7346 4.73157L11.9998 5.00642L12.2648 4.73173C13.3324 3.6245 14.7864 3 16.3053 3C17.8242 3 19.2781 3.62444 20.3458 4.73157C21.4063 5.83045 22 7.31577 22 8.86222Z"
+                  stroke="currentColor" stroke-linejoin="round" />
+              </svg>
+              <p>건강</p>
+            </a>
+            <div class="subContents" id="subContents_healthcare">
+              <ul class="subContent-ul">
+                <li>
+                  <a href="healthcare.html" class="submenu-title">수면 솔루션</a>
+                  <ul>
+                    <li><a href="healthcare.html">수면 무호흡증</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="healthcare.html" class="submenu-title">히어링 솔루션</a>
+                  <ul>
+                    <li><a href="healthcare.html">청력과 난청</a></li>
+                    <li><a href="healthcare.html">보청기</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li id="li_car" onclick="Open_tablet_menu(this, 'li_sound_and_vision', 'li_personalcare', 'li_babycare', 'li_house', 'li_light', 'li_healthcare', 'li_acc', 'li_event', 'subContents_car')">
+            <a href="javascript:void(0)">
+              <svg width="42" height="42" stroke-width="0.5" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 10L16 10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M7 14L8 14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M16 14L17 14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M3 18V11.4105C3 11.1397 3.05502 10.8716 3.16171 10.6227L5.4805 5.21216C5.79566 4.47679 6.51874 4 7.31879 4H16.6812C17.4813 4 18.2043 4.47679 18.5195 5.21216L20.8383 10.6227C20.945 10.8716 21 11.1397 21 11.4105V18M3 18V20.4C3 20.7314 3.26863 21 3.6 21H6.4C6.73137 21 7 20.7314 7 20.4V18M3 18H7M21 18V20.4C21 20.7314 20.7314 21 20.4 21H17.6C17.2686 21 17 20.7314 17 20.4V18M21 18H17M7 18H17"
+                  stroke="currentColor" stroke-width="0.5" />
+              </svg>
+              <p>차량용</p>
+            </a>
+            <div class="subContents" id="subContents_car">
+              <ul class="subContent-ul">
+                <li>
+                  <a href="car.html" class="submenu-title">차량용</a>
+                  <ul>
+                    <li><a href="car.html">오토바이 조명</a></li>
+                    <li><a href="car.html">할로겐</a></li>
+                    <li><a href="car.html">제논</a></li>
+                    <li><a href="car.html">새로운 LED 제품군 찾아보기</a></li>
+                    <li><a href="car.html">모든 차량용 조명 및 액세서리</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="car.html" class="submenu-title">오토바이</a>
+                  <ul>
+                    <li><a href="car.html">오토바이 조명</a></li>
+                    <li><a href="car.html">할로겐</a></li>
+                    <li><a href="car.html">LED</a></li>
+                    <li><a href="car.html">모든 오토바이 조명</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="car.html" class="submenu-title">트럭</a>
+                  <ul>
+                    <li><a href="car.html">헤드 라이트</a></li>
+                    <li><a href="car.html">모든 트럭 조명</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="car.html" class="submenu-title">이메일 문의</a>
+                  <ul>
+                    <li><a href="car.html">자동차 지원</a></li>
+                    <li><a href="car.html">판매점 찾기</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="car.html" class="submenu-title">액세서리</a>
+                  <ul>
+                    <li><a href="car.html">자동차 액세서리</a></li>
+                    <li><a href="car.html">LED 작업등</a></li>
+                    <li><a href="car.html">차량 공기품질</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="car.html" class="submenu-title">회사 소개</a>
+                  <ul>
+                    <li><a href="car.html">필립스 차량용 조명</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li id="li_acc" onclick="Open_tablet_menu(this, 'li_sound_and_vision', 'li_personalcare', 'li_babycare', 'li_house', 'li_light', 'li_healthcare', 'li_car', 'li_event', 'subContents_acc')">
+            <a href="javascript:void(0)">
+              <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-plus-square">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="12" y1="8" x2="12" y2="16"></line>
+                <line x1="8" y1="12" x2="16" y2="12"></line>
+              </svg>
+              <p>액세서리</p>
+            </a>
+            <div class="subContents" id="subContents_acc">
+              <ul class="align-wide">
+                <li><a href="acc.html">남성 면도 및 그루밍 액세서리</a></li>
+                <li><a href="acc.html">개인 용품 액세서리</a></li>
+                <li><a href="acc.html">엄마 및 아기 용품</a></li>
+                <li><a href="acc.html">커피 용품 액세서리 및 부품</a></li>
+                <li><a href="acc.html">칫솔 액세서리</a></li>
+                <li><a href="acc.html">생활 가전 액세서리</a></li>
+              </ul>
+            </div>
+          </li>
+          <li id="li_event">
+            <a href="event.html">
+              <svg width="42" height="42" stroke-width="0.5" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8.58737 8.23597L11.1849 3.00376C11.5183 2.33208 12.4817 2.33208 12.8151 3.00376L15.4126 8.23597L21.2215 9.08017C21.9668 9.18848 22.2638 10.0994 21.7243 10.6219L17.5217 14.6918L18.5135 20.4414C18.6409 21.1798 17.8614 21.7428 17.1945 21.3941L12 18.678L6.80547 21.3941C6.1386 21.7428 5.35909 21.1798 5.48645 20.4414L6.47825 14.6918L2.27575 10.6219C1.73617 10.0994 2.03322 9.18848 2.77852 9.08017L8.58737 8.23597Z"
+                  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <p>이벤트</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!----------------------------->
     <!-- 서브메뉴 배너 -->
     <div class="banner banner-babycare">
       <div class="textBox">
-        <p class="title">필립스 육아 용품<br>아기의 모든 성장 단계를 고려한 디자인</p>
+        <p class="title">필립스 육아 용품</p>
+        <p class="description">아기의 모든 성장 단계를 고려한 디자인</p>
       </div>
     </div>
     <!-- 상세메뉴 -->
-    <div class="submenu">
+    <div class="submenu submenu-babycare">
       <ul>
         <li class="checked">보틀워머 및 소독기</li>
         <li>이유식 마스터 및 식기</li>
