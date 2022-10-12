@@ -20,7 +20,7 @@ input {
   outline: none;
 }
 
-body{
+body {
   min-width: 335px;
 }
 
@@ -105,23 +105,23 @@ body{
     }
   }
 
-  .header-wrap-tablet{
+  .header-wrap-tablet {
     display: none;
 
     .header-tablet {
       width: 100%;
       padding: 20px 50px;
-  
+
       ul {
         width: 100%;
         height: 90px;
-  
+
         li {
           float: left;
-  
+
           &.logo {
             padding-top: 6px;
-  
+
             img {
               width: 200px;
               height: auto;
@@ -135,15 +135,15 @@ body{
             padding-top: 20px;
             margin-left: 26px;
             float: left;
-    
+
             li {
               width: 20%;
               text-align: center;
-    
+
               a {
                 font-size: 16px;
                 font-weight: 500;
-    
+
                 &:hover {
                   font-weight: 600;
                 }
@@ -157,14 +157,14 @@ body{
             padding-top: 26px;
             display: block;
 
-            svg{
-              &#closeBtn-tablet{
+            svg {
+              &#closeBtn-tablet {
                 display: none;
               }
             }
           }
         }
-        
+
       }
     }
 
@@ -175,26 +175,26 @@ body{
       overflow-y: scroll;
       display: none;
 
-      ul.content-ul{
-        
-        li{
+      ul.content-ul {
+
+        li {
           width: 100%;
           height: 70px;
           margin: 10px 0;
           padding: 10px 0;
 
-          a{
+          a {
             display: block;
             float: left;
             width: 100%;
 
-            svg{
+            svg {
               float: left;
               width: 60px;
               margin-right: 8px;
             }
 
-            p{
+            p {
               float: left;
               font-size: 20px;
               font-weight: 500;
@@ -202,34 +202,34 @@ body{
             }
           }
 
-          .subContents{
+          .subContents {
             width: 100%;
             height: auto;
             padding: 50px 0 0 70px;
 
-            ul.subContent-ul{
+            ul.subContent-ul {
               width: 100%;
               height: auto;
 
-              li{
+              li {
                 width: 100%;
                 height: auto;
                 display: block;
 
-                .submenu-title{
+                .submenu-title {
                   display: block;
                   font-size: 20px;
                   font-weight: 600;
                   margin-bottom: 8px;
                 }
 
-                ul{
+                ul {
                   width: 100%;
                   height: auto;
                   display: block;
 
-                  li{
-                    a{
+                  li {
+                    a {
                       display: block;
                       font-size: 18px;
                       font-weight: 400;
@@ -240,17 +240,17 @@ body{
               }
             }
 
-            ul.align-wide{
+            ul.align-wide {
               width: 100%;
               height: auto;
 
-              li{
+              li {
                 width: 100%;
                 height: 32px;
                 display: block;
                 padding: 0;
 
-                a{
+                a {
                   display: block;
                   font-size: 18px;
                   font-weight: 400;
@@ -318,60 +318,60 @@ body{
           background-color: #fff;
           border-top: 1px solid #eee;
           display: block;
-      
+
           .content {
             width: 100%;
             height: 300px;
             display: none;
             padding: 36px 10%;
-      
+
             ul {
               display: flex;
               flex-wrap: nowrap;
-      
+
               li {
                 width: 260px;
                 height: auto;
                 word-break: keep-all;
-      
+
                 .submenu-title {
                   font-weight: 700;
                 }
-      
+
                 ul {
                   flex-direction: column;
                   padding: 24px 0;
-      
+
                   li {
                     width: 100%;
                     padding: 4px 0;
-      
+
                     a {
                       text-align: left;
                       line-height: 22px;
-      
+
                       &:hover {
                         font-weight: 600;
                       }
                     }
 
-                    &:hover{
+                    &:hover {
                       font-weight: 600;
                     }
                   }
                 }
 
-                &:hover{
+                &:hover {
                   border: none;
                 }
               }
-      
+
               &.align-wide {
                 width: 100%;
                 height: auto;
                 overflow-y: auto;
                 display: block;
-      
+
                 li {
                   width: 20%;
                   height: auto;
@@ -379,7 +379,7 @@ body{
                   margin: 10px 0;
                   word-break: keep-all;
 
-                  &:hover{
+                  &:hover {
                     font-weight: 600;
                   }
                 }
@@ -390,10 +390,11 @@ body{
 
         &:hover {
           border-bottom: 4px solid $philips-blue;
-          
-          .content{
+
+          .content {
             display: block;
           }
+
           a {
             p {
               font-weight: 600;
@@ -408,24 +409,24 @@ body{
     width: 100%;
     height: 400px;
 
-    .swiper-slide{
+    .swiper-slide {
       .textBox {
         position: absolute;
         top: 100px;
         left: 200px;
-  
+
         p {
           color: #fff;
           font-size: 42px;
           font-weight: 700;
           line-height: 54px;
-  
+
           &.description {
             font-size: 18px;
             font-weight: 400;
           }
         }
-  
+
         button {
           width: 160px;
           height: 40px;
@@ -438,7 +439,7 @@ body{
           transition: all .3s;
           cursor: pointer;
           margin-top: 10px;
-  
+
           &:hover {
             background-color: $philips-blue;
             border: none;
@@ -448,10 +449,11 @@ body{
       }
     }
 
-    .swiper-button-prev{
+    .swiper-button-prev {
       padding: 0 80px;
     }
-    .swiper-button-next{
+
+    .swiper-button-next {
       padding: 0 80px;
     }
   }
@@ -830,50 +832,58 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-  
-    &.banner-tv{
+
+    &.banner-tv {
       background-image: url('../img/banner/sub_banner_tv.jpg');
     }
-    &.banner-personal-care{
+
+    &.banner-personal-care {
       background-image: url('../img/banner/sub_banner_personal.jpg');
       background-position: center 10%;
     }
-    &.banner-babycare{
+
+    &.banner-babycare {
       background-image: url('../img/banner/sub_banner_baby.jpg');
       background-position: center 50%;
     }
-    &.banner-house{
+
+    &.banner-house {
       background-image: url('../img/banner/sub_banner_house.jpg');
       background-position: center 50%;
     }
-    &.banner-light{
+
+    &.banner-light {
       background-image: url('../img/banner/sub_banner_light.jpg');
       background-position: center 50%;
     }
-    &.banner-healthcare{
+
+    &.banner-healthcare {
       background-image: url('../img/banner/sub_banner_hearing.jpg');
       background-position: center 0;
     }
-    &.banner-car{
+
+    &.banner-car {
       background-image: url('../img/banner/sub_banner_car.jpg');
       background-position: center 0;
     }
-    &.banner-acc{
+
+    &.banner-acc {
       background-image: url('../img/banner/sub_banner_acc.webp');
     }
-    &.banner-event{
+
+    &.banner-event {
       background-image: url('../img/banner/sub_banner_event.jpg');
     }
 
     .textBox {
       padding: 100px 10%;
-  
+
       p {
         color: #fff;
         font-size: 42px;
         font-weight: 700;
         line-height: 54px;
-  
+
         &.description {
           font-size: 18px;
           font-weight: 400;
@@ -881,22 +891,22 @@ body{
       }
     }
 
-    img{
+    img {
       width: 100%;
       height: auto;
     }
-  
+
   }
 
-  .submenu{
+  .submenu {
     width: 100%;
     height: 40px;
     background-color: $philips-blue ;
 
-    ul{
+    ul {
       padding: 0 10%;
 
-      li{
+      li {
         width: 20%;
         float: left;
         text-align: center;
@@ -904,12 +914,12 @@ body{
         padding: 12px 0;
         cursor: pointer;
 
-        &:hover{
+        &:hover {
           background-color: #fff;
           color: #333;
         }
 
-        &.checked{
+        &.checked {
           background-color: #fff;
           color: #333;
         }
@@ -918,17 +928,18 @@ body{
 
   }
 
-  section{
+  section {
     width: 100%;
     padding: 200px 0;
     text-align: center;
 
-    h5{
+    h5 {
       font-size: 20px;
       font-weight: 600;
       margin: 10px 0;
     }
-    span{
+
+    span {
       font-size: 16px;
       font-weight: 400;
     }
@@ -937,13 +948,13 @@ body{
 }
 
 @include tablet {
-  #wrapper{
+  #wrapper {
 
-    header{
+    header {
       display: none;
     }
 
-    .header-wrap-tablet{
+    .header-wrap-tablet {
       display: block;
       width: 100%;
       position: fixed;
@@ -962,21 +973,22 @@ body{
       padding: 0 50px;
       background-color: bisque;
 
-      ul{
+      ul {
         width: 100px;
         height: 130px;
 
-        li{
+        li {
           width: 100%;
           height: 80px;
           padding: 20px 0;
 
-          a{
-            svg{
+          a {
+            svg {
               width: 50px;
               float: left;
             }
-            p{
+
+            p {
               float: left;
               font-size: 18px;
               text-align: left;
@@ -987,41 +999,43 @@ body{
       }
     }
 
-    .main-slides{
+    .main-slides {
       margin-top: 190px;
       height: 360px;
 
-      .swiper-slide{
-        .textBox{
+      .swiper-slide {
+        .textBox {
           top: 86px;
           left: 100px;
 
-          p{
+          p {
             font-size: 36px;
             line-height: 48px;
           }
         }
 
-        img{
+        img {
           width: 150%;
         }
       }
-      .swiper-button-prev{
+
+      .swiper-button-prev {
         padding: 0 40px;
       }
-      .swiper-button-next{
+
+      .swiper-button-next {
         padding: 0 40px;
       }
     }
-    
+
     .popular {
       padding: 44px 50px 0;
-  
+
       ul {
         li {
           width: calc(100% / 3 - 11px);
           margin: 0 8px 16px;
-  
+
           &:first-child {
             margin: 0 8px 16px 0;
           }
@@ -1033,18 +1047,18 @@ body{
           &:nth-child(4) {
             margin: 0 8px 16px 0;
           }
-  
+
           &:last-child {
             margin: 0 0 16px 8px;
           }
-  
+
           p {
             margin-top: 10px;
           }
         }
       }
     }
-  
+
     .mini-banner {
       padding: 0 50px;
       margin: 30px 0;
@@ -1053,7 +1067,7 @@ body{
         width: 100%;
         height: 240px;
         margin: 10px 0;
-  
+
         .mini-bg {
           height: 240px;
         }
@@ -1061,28 +1075,29 @@ body{
         .mini-text {
           top: 70px;
           left: 50px;
-  
+
           p {
             &:first-child {
               font-size: 26px;
               margin-bottom: 10px;
             }
+
             &:last-child {
               font-size: 16px;
             }
           }
         }
-  
+
         button {
           top: 146px;
           left: 50px;
           height: 40px;
         }
-  
+
       }
-  
+
     }
-  
+
     .search {
       height: 360px;
       padding-top: 80px;
@@ -1094,22 +1109,22 @@ body{
         }
       }
     }
-  
+
     footer {
-  
+
       .footer-top {
         height: 80px;
 
         .sns {
           padding: 14px 50px;
         }
-  
+
         .lang {
           padding: 8px 50px;
-  
+
           li {
             line-height: 22px;
-  
+
             a {
               color: #fff;
               margin-right: 4px;
@@ -1117,11 +1132,11 @@ body{
           }
         }
       }
-  
+
       .footer-bottom {
         padding: 10px 50px 16px;
       }
-  
+
     }
 
     // sub pages
@@ -1131,13 +1146,13 @@ body{
 
       .textBox {
         padding: 92px 50px;
-    
+
         p {
           color: #fff;
           font-size: 32px;
           font-weight: 700;
           line-height: 40px;
-    
+
           &.description {
             font-size: 18px;
             font-weight: 400;
@@ -1145,19 +1160,19 @@ body{
         }
       }
 
-      img{
+      img {
         width: 100%;
         height: auto;
       }
-    
+
     }
 
-    .submenu{
+    .submenu {
       width: 100%;
       height: 40px;
       background-color: $philips-blue ;
 
-      ul{
+      ul {
         padding: 0 50px;
       }
 
@@ -1166,14 +1181,14 @@ body{
 }
 
 @include mobile {
-  #wrapper{
+  #wrapper {
 
-    header{
+    header {
       display: none;
       height: 100px;
     }
 
-    .header-wrap-tablet{
+    .header-wrap-tablet {
       display: block;
       width: 100%;
       height: 100px;
@@ -1183,21 +1198,23 @@ body{
       z-index: 101;
       background-color: #fff;
 
-      .header-tablet{
+      .header-tablet {
         padding: 10px 20px;
 
-        ul{
+        ul {
           position: relative;
 
-          li.logo{
-            img{
+          li.logo {
+            img {
               width: 180px;
             }
           }
-          li.mini-menu{
+
+          li.mini-menu {
             display: none;
           }
-          li.hamburger{
+
+          li.hamburger {
             position: absolute;
             top: 20px;
             right: 0;
@@ -1212,51 +1229,53 @@ body{
       }
     }
 
-    .main-slides{
+    .main-slides {
       margin-top: 100px;
       height: 240px;
 
-      .swiper-slide{
-        .textBox{
+      .swiper-slide {
+        .textBox {
           top: 46px;
           left: 34px;
 
-          p{
+          p {
             font-size: 24px;
             line-height: 30px;
 
-            &.description{
+            &.description {
               font-size: 14px;
             }
           }
 
-          button{
+          button {
             width: 120px;
           }
         }
 
-        img{
+        img {
           width: 200%;
         }
       }
-      .swiper-button-prev{
+
+      .swiper-button-prev {
         display: none;
       }
-      .swiper-button-next{
+
+      .swiper-button-next {
         display: none;
       }
     }
-    
+
     .popular {
       padding: 44px 20px 0;
-  
+
       ul {
         li {
           width: calc(50% - 12px);
           height: 300px;
           margin: 0 8px 16px;
           padding: 30px 26px;
-  
+
           &:first-child {
             margin: 0 8px 16px 0;
           }
@@ -1276,11 +1295,11 @@ body{
           &:nth-child(5) {
             margin: 0 8px 16px 0;
           }
-  
+
           &:last-child {
             margin: 0 0 16px 8px;
           }
-  
+
           p {
             margin-top: 34px;
             font-size: 14px;
@@ -1289,7 +1308,7 @@ body{
         }
       }
     }
-  
+
     .mini-banner {
       padding: 0 20px;
       margin: 10px 0;
@@ -1298,7 +1317,7 @@ body{
         width: 100%;
         height: 200px;
         margin: 10px 0;
-  
+
         .mini-bg {
           height: 240px;
         }
@@ -1306,29 +1325,30 @@ body{
         .mini-text {
           top: 50px;
           left: 20px;
-  
+
           p {
             &:first-child {
               font-size: 20px;
               margin-bottom: 10px;
             }
+
             &:last-child {
               font-size: 15px;
             }
           }
         }
-  
+
         button {
           top: 116px;
           left: 20px;
           height: 40px;
           font-size: 14px;
         }
-  
+
       }
-  
+
     }
-  
+
     .search {
       height: 280px;
       padding-top: 46px;
@@ -1339,48 +1359,49 @@ body{
           font-size: 18px;
           margin-bottom: 12px;
         }
-        p{
+
+        p {
           font-size: 16px;
         }
       }
 
-      .search-input{
+      .search-input {
         padding: 0 20px;
 
-        svg{
+        svg {
           right: 7%;
         }
       }
 
-      .search-btn{
+      .search-btn {
         padding: 0 20px;
 
-        button{
+        button {
           font-size: 14px;
         }
       }
     }
-  
+
     footer {
-  
+
       .footer-top {
         height: 70px;
 
         .sns {
           padding: 12px 20px;
 
-          img{
+          img {
             width: 46px;
           }
         }
-  
+
         .lang {
           padding: 12px 20px;
-  
+
           li {
             font-size: 14px;
             line-height: 14px;
-  
+
             a {
               color: #fff;
               margin-right: 4px;
@@ -1388,16 +1409,16 @@ body{
           }
         }
       }
-  
+
       .footer-bottom {
         padding: 10px 20px 16px;
 
-        p{
+        p {
           font-size: 12px;
           line-height: 16px;
         }
       }
-  
+
     }
 
     // sub pages
@@ -1407,13 +1428,13 @@ body{
 
       .textBox {
         padding: 80px 20px;
-    
+
         p {
           color: #fff;
           font-size: 30px;
           font-weight: 700;
           line-height: 40px;
-    
+
           &.description {
             font-size: 16px;
             font-weight: 400;
@@ -1421,65 +1442,63 @@ body{
         }
       }
 
-      img{
+      img {
         width: 100%;
         height: auto;
       }
-    
+
     }
 
-    .submenu{
+    .submenu {
       width: 100%;
       height: 36px;
       background-color: $philips-blue ;
 
-      &.submenu-babycare{
-        ul{
-          li{
+      &.submenu-babycare {
+        ul {
+          li {
             padding: 6px 0;
             font-size: 12px;
           }
         }
       }
 
-      &.submenu-acc{
-        ul{
-          li{
+      &.submenu-acc {
+        ul {
+          li {
             height: 36px;
             font-size: 11px;
           }
         }
       }
 
-      ul{
+      ul {
         padding: 0;
 
-        li{
+        li {
           font-size: 13px;
         }
       }
 
     }
 
-    section{
+    section {
       width: 100%;
       padding: 200px 0;
       text-align: center;
 
-      img{
+      img {
         width: 70px;
       }
-  
-      h5{
+
+      h5 {
         font-size: 18px;
         margin: 6px 0;
       }
-      span{
+
+      span {
         font-size: 14px;
       }
     }
   }
 }
-
-
-
