@@ -995,7 +995,7 @@ body {
 }
 
 #wrapper .mini-banner .mini.mini-two .mini-bg {
-  background-image: url(/./img/banner/minibanner2.jpg);
+  background-image: url("../img/banner/minibanner2.jpg");
 }
 
 #wrapper .mini-banner .mini.mini-two:hover .mini-bg {
@@ -1004,7 +1004,7 @@ body {
 }
 
 #wrapper .mini-banner .mini.mini-one .mini-bg {
-  background-image: url(/./img/banner/minibanner1.jpg);
+  background-image: url("../img/banner/minibanner1.jpg");
 }
 
 #wrapper .mini-banner .mini.mini-one:hover .mini-bg {
